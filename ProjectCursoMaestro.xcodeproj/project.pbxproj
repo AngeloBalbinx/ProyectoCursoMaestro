@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B71EEEDF2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */; };
+		B71EEEE12AD1E17900569D65 /* MenuPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */; };
+		B71EEEE32AD1E1DE00569D65 /* BuscarCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */; };
+		B71EEEE52AD1E1FF00569D65 /* MisCursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */; };
 		B73B63CD2AC8A0A800FA4A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */; };
 		B73B63CF2AC8A0A800FA4A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */; };
 		B73B63D12AC8A0A800FA4A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63D02AC8A0A800FA4A1B /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beige Brown Minimalist Pet Shop - Logo (1).png"; path = "../../../Downloads/Beige Brown Minimalist Pet Shop - Logo (1).png"; sourceTree = "<group>"; };
+		B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalViewController.swift; sourceTree = "<group>"; };
+		B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarCursoViewController.swift; sourceTree = "<group>"; };
+		B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisCursosViewController.swift; sourceTree = "<group>"; };
 		B73B63C92AC8A0A800FA4A1B /* ProjectCursoMaestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCursoMaestro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				B73B63DA2AC8A0A900FA4A1B /* Info.plist */,
 				B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */,
 				B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */,
+				B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */,
+				B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */,
+				B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */,
 			);
 			path = ProjectCursoMaestro;
 			sourceTree = "<group>";
@@ -145,10 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71EEEE12AD1E17900569D65 /* MenuPrincipalViewController.swift in Sources */,
 				B73B63D12AC8A0A800FA4A1B /* ViewController.swift in Sources */,
 				B73B63E12AC8A91700FA4A1B /* RegistroViewController.swift in Sources */,
+				B71EEEE32AD1E1DE00569D65 /* BuscarCursoViewController.swift in Sources */,
 				B73B63CD2AC8A0A800FA4A1B /* AppDelegate.swift in Sources */,
 				B73B63CF2AC8A0A800FA4A1B /* SceneDelegate.swift in Sources */,
+				B71EEEE52AD1E1FF00569D65 /* MisCursosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
