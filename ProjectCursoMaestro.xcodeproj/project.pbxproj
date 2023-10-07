@@ -11,6 +11,7 @@
 		B71EEEE12AD1E17900569D65 /* MenuPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */; };
 		B71EEEE32AD1E1DE00569D65 /* BuscarCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */; };
 		B71EEEE52AD1E1FF00569D65 /* MisCursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */; };
+		B71EEEE72AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71EEEE62AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg */; };
 		B73B63CD2AC8A0A800FA4A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */; };
 		B73B63CF2AC8A0A800FA4A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */; };
 		B73B63D12AC8A0A800FA4A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63D02AC8A0A800FA4A1B /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalViewController.swift; sourceTree = "<group>"; };
 		B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarCursoViewController.swift; sourceTree = "<group>"; };
 		B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisCursosViewController.swift; sourceTree = "<group>"; };
+		B71EEEE62AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg"; path = "../../../Downloads/education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg"; sourceTree = "<group>"; };
 		B73B63C92AC8A0A800FA4A1B /* ProjectCursoMaestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCursoMaestro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */,
 				B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */,
 				B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */,
+				B71EEEE62AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg */,
 			);
 			path = ProjectCursoMaestro;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71EEEE72AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg in Resources */,
 				B73B63D92AC8A0A900FA4A1B /* LaunchScreen.storyboard in Resources */,
 				B73B63D62AC8A0A900FA4A1B /* Assets.xcassets in Resources */,
 				B73B63D42AC8A0A800FA4A1B /* Main.storyboard in Resources */,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j9i-wV-skL">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -158,6 +158,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="DQh-Ak-lds"/>
                                                 </constraints>
+                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gob-QD-Qyf">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -193,6 +194,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="ga6-A2-MEH"/>
                                                 </constraints>
+                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="An3-EJ-E5W">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -228,6 +230,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="bs7-kY-pjd"/>
                                                 </constraints>
+                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="94c-wn-jm7">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -258,11 +261,12 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2c2-nB-eey">
                                         <rect key="frame" x="0.0" y="348" width="355" height="100"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="dOA-xq-moZ">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOA-xq-moZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="S80-E6-uuy"/>
                                                 </constraints>
+                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Iy3-Go-NWQ">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -298,6 +302,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="QfB-8k-PLM"/>
                                                 </constraints>
+                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fvT-3W-nYK">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -795,6 +800,9 @@
     </scenes>
     <resources>
         <image name="Beige Brown Minimalist Pet Shop - Logo (1).png" width="328.5" height="138"/>
+        <image width="784" height="636">
+            <string key="name">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
+        </image>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
