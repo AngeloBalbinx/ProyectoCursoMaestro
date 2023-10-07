@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="25Y-zf-Kzr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jq6-QR-t5h">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="-28"/>
+            <point key="canvasLocation" x="-2" y="-194"/>
         </scene>
         <!--Registro View Controller-->
         <scene sceneID="sh2-9A-JdO">
@@ -131,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y3y-UF-ijF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967" y="-28"/>
+            <point key="canvasLocation" x="697" y="-193"/>
         </scene>
         <!--Menu Principal View Controller-->
         <scene sceneID="nhS-lP-hP4">
@@ -148,7 +148,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gcN-Vx-ZnW">
-                                <rect key="frame" x="19" y="128" width="355" height="564"/>
+                                <rect key="frame" x="19" y="128" width="355" height="515"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EPQ-Dz-teq">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="100"/>
@@ -158,7 +158,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="DQh-Ak-lds"/>
                                                 </constraints>
-                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gob-QD-Qyf">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -194,7 +193,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="ga6-A2-MEH"/>
                                                 </constraints>
-                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="An3-EJ-E5W">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
@@ -223,17 +221,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8Ah-CI-dyh">
-                                        <rect key="frame" x="0.0" y="232" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="232" width="355" height="51"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Z3-ZwQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="bs7-kY-pjd"/>
                                                 </constraints>
-                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="94c-wn-jm7">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="51"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BMq-qT-raE">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -246,7 +243,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E9I-Cv-cAd">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -259,17 +256,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2c2-nB-eey">
-                                        <rect key="frame" x="0.0" y="348" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="299" width="355" height="149"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOA-xq-moZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="149"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="S80-E6-uuy"/>
                                                 </constraints>
-                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Iy3-Go-NWQ">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="149"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qjA-jy-0FB">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -282,7 +278,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A1D-nS-gUn">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="99"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -295,17 +291,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qaH-tH-xRK">
-                                        <rect key="frame" x="0.0" y="464" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="464" width="355" height="51"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="eiQ-fz-PsD">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="QfB-8k-PLM"/>
                                                 </constraints>
-                                                <string key="image">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fvT-3W-nYK">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="51"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j3d-5a-GcY">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -318,7 +313,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LiM-7r-IMD">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -352,10 +347,11 @@
                             <constraint firstItem="gcN-Vx-ZnW" firstAttribute="leading" secondItem="acY-xA-jSd" secondAttribute="leading" constant="19" id="vhE-zk-kNm"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ve2-ax-Pay"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hqg-at-aeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1695" y="-28"/>
+            <point key="canvasLocation" x="1425" y="-193"/>
         </scene>
         <!--Buscar Curso View Controller-->
         <scene sceneID="bQO-sb-7sw">
@@ -366,7 +362,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="KEg-7m-pVF">
-                                <rect key="frame" x="19" y="128" width="355" height="564"/>
+                                <rect key="frame" x="19" y="128" width="355" height="515"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="RwL-H7-BEF">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="100"/>
@@ -439,16 +435,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="NND-pi-Nh1">
-                                        <rect key="frame" x="0.0" y="232" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="232" width="355" height="51"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="60d-Pz-K4y">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="nW9-hf-UQY"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-1P-XR8">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="51"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="587-fs-j2A">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -461,7 +457,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="seU-tg-sBq">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -474,16 +470,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ubM-dW-ody">
-                                        <rect key="frame" x="0.0" y="348" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="299" width="355" height="149"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="2tF-mY-Y73">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="149"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="62V-Xl-kEP"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Uo8-Rf-XGs">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="149"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8pO-eb-hai">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -496,7 +492,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j4Z-Jt-NKd">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="99"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -509,16 +505,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="IOs-Qx-gTg">
-                                        <rect key="frame" x="0.0" y="464" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="464" width="355" height="51"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="HTN-XE-Cf1">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="gg8-4K-WQG"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JkM-nE-Zpk">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="51"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Sw-gn-A45">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -531,7 +527,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N4h-bm-SwA">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -573,10 +569,48 @@
                             <constraint firstItem="KEg-7m-pVF" firstAttribute="leading" secondItem="XWl-2j-9RD" secondAttribute="leading" id="nGt-FI-25u"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gq3-SA-Sc5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xc6-la-nXT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2432.8244274809158" y="-28.169014084507044"/>
+            <point key="canvasLocation" x="2163" y="-193"/>
+        </scene>
+        <!--Destacados-->
+        <scene sceneID="KFB-48-dmj">
+            <objects>
+                <navigationController id="XnK-uT-1EL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Destacados" image="star" catalog="system" id="LvA-3M-MFN"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rBe-L7-9r5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="j9i-wV-skL" kind="relationship" relationship="rootViewController" id="nhw-Xd-9xP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QyW-fG-JQA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1260" y="-1004"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="90r-I1-NTM">
+            <objects>
+                <tabBarController id="jq6-QR-t5h" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="icA-1V-H3w">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XnK-uT-1EL" kind="relationship" relationship="viewControllers" id="nEl-ah-ylG"/>
+                        <segue destination="Xba-Lv-1DO" kind="relationship" relationship="viewControllers" id="UKu-7N-mbR"/>
+                        <segue destination="9Rs-e3-Wgw" kind="relationship" relationship="viewControllers" id="SOv-FA-jn9"/>
+                        <segue destination="DJK-Od-u0i" kind="relationship" relationship="viewControllers" id="CNB-f0-JwD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ie7-3z-3WW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2561" y="-1732"/>
         </scene>
         <!--Mis Cursos View Controller-->
         <scene sceneID="EDe-1N-yRn">
@@ -587,7 +621,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="lLL-3w-Ai8">
-                                <rect key="frame" x="19" y="128" width="355" height="564"/>
+                                <rect key="frame" x="19" y="128" width="355" height="515"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="o6C-Rl-gmE">
                                         <rect key="frame" x="0.0" y="0.0" width="355" height="100"/>
@@ -660,16 +694,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="bb5-GB-49B">
-                                        <rect key="frame" x="0.0" y="232" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="232" width="355" height="51"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="9qe-cQ-kVG">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="e7P-pt-jBR"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bpS-Pu-yse">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="51"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-Qf-AX5">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -682,7 +716,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N9z-h7-Uxu">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -695,16 +729,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="a7y-cn-pbQ">
-                                        <rect key="frame" x="0.0" y="348" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="299" width="355" height="149"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="tpg-UB-XKa">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="149"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="Isu-Ed-WgD"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bvc-ef-E8h">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="149"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vVv-va-psz">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -717,7 +751,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jLC-6k-VOT">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="99"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -730,16 +764,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4Dz-Ai-Yzn">
-                                        <rect key="frame" x="0.0" y="464" width="355" height="100"/>
+                                        <rect key="frame" x="0.0" y="464" width="355" height="51"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="dgz-af-lF7">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="51"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="128" id="EhY-1r-S4l"/>
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cTS-DD-Szv">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
+                                                <rect key="frame" x="136" y="0.0" width="219" height="51"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-ir-IKg">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
@@ -752,7 +786,7 @@
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3Ru-7x-pon">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
+                                                        <rect key="frame" x="0.0" y="50" width="219" height="1"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -792,10 +826,11 @@
                             <constraint firstItem="lLL-3w-Ai8" firstAttribute="centerX" secondItem="EU9-JQ-wSl" secondAttribute="centerX" id="gmd-rR-6y2"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="5UH-dO-9on"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aqO-oX-xTO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3245" y="-28"/>
+            <point key="canvasLocation" x="2973" y="-193"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="f4g-AT-SZh">
@@ -805,20 +840,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nn-Yh-5xf">
-                                <rect key="frame" x="48" y="388" width="70" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Usuario:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Nn-Yh-5xf">
+                                <rect key="frame" x="32" y="427" width="70" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5V-nC-MlI">
-                                <rect key="frame" x="50" y="461" width="103" height="23"/>
+                                <rect key="frame" x="32" y="491" width="103" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKq-kX-6Wy">
-                                <rect key="frame" x="233" y="672" width="95" height="30"/>
+                                <rect key="frame" x="233" y="690" width="95" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Crear cuenta">
@@ -826,26 +861,26 @@
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yFi-vt-qmm">
-                                <rect key="frame" x="188" y="383" width="175" height="34"/>
+                                <rect key="frame" x="172" y="427" width="191" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bVD-z5-q7D">
-                                <rect key="frame" x="188" y="447" width="175" height="34"/>
+                                <rect key="frame" x="170" y="491" width="193" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwc-63-cqh">
-                                <rect key="frame" x="116" y="567" width="160" height="35"/>
+                                <rect key="frame" x="128" y="585" width="137" height="35"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beige Brown Minimalist Pet Shop - Logo (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="Gef-1f-2qJ">
-                                <rect key="frame" x="70" y="129" width="253" height="184"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" image="Beige Brown Minimalist Pet Shop - Logo (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="Gef-1f-2qJ">
+                                <rect key="frame" x="70" y="173" width="253" height="184"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eres nuevo aqui?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kb-S3-pzc">
-                                <rect key="frame" x="96" y="675" width="129" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Eres nuevo aqui?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Kb-S3-pzc">
+                                <rect key="frame" x="96" y="694" width="129" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -855,40 +890,92 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="yFi-vt-qmm" firstAttribute="top" secondItem="Gef-1f-2qJ" secondAttribute="bottom" constant="70" id="3Zy-we-82n"/>
-                            <constraint firstItem="2Kb-S3-pzc" firstAttribute="top" secondItem="Nwc-63-cqh" secondAttribute="bottom" constant="73" id="5WD-dQ-z5f"/>
-                            <constraint firstItem="Nwc-63-cqh" firstAttribute="top" secondItem="k5V-nC-MlI" secondAttribute="bottom" constant="83" id="6Td-04-Dkt"/>
+                            <constraint firstItem="2Kb-S3-pzc" firstAttribute="top" secondItem="Nwc-63-cqh" secondAttribute="bottom" constant="74" id="70A-ik-7g8"/>
                             <constraint firstItem="bVD-z5-q7D" firstAttribute="top" secondItem="yFi-vt-qmm" secondAttribute="bottom" constant="30" id="8UY-1q-oX1"/>
                             <constraint firstItem="Gef-1f-2qJ" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="70" id="AVQ-LL-bIh"/>
                             <constraint firstItem="yFi-vt-qmm" firstAttribute="leading" secondItem="0Nn-Yh-5xf" secondAttribute="trailing" constant="70" id="BGQ-m6-Mo1"/>
-                            <constraint firstItem="HKq-kX-6Wy" firstAttribute="top" secondItem="Nwc-63-cqh" secondAttribute="bottom" constant="70" id="HU6-tu-LXj"/>
                             <constraint firstItem="Gef-1f-2qJ" firstAttribute="top" secondItem="8il-3c-A68" secondAttribute="top" constant="70" id="LdT-U0-Pqq"/>
                             <constraint firstItem="HKq-kX-6Wy" firstAttribute="leading" secondItem="2Kb-S3-pzc" secondAttribute="trailing" constant="8" symbolic="YES" id="Qhq-52-dhu"/>
+                            <constraint firstItem="HKq-kX-6Wy" firstAttribute="top" secondItem="Nwc-63-cqh" secondAttribute="bottom" constant="70" id="T3J-NI-UxI"/>
                             <constraint firstItem="2Kb-S3-pzc" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="96" id="UTa-ln-lfj"/>
-                            <constraint firstItem="8il-3c-A68" firstAttribute="trailing" secondItem="Nwc-63-cqh" secondAttribute="trailing" constant="117" id="a83-Ik-7Im"/>
+                            <constraint firstItem="8il-3c-A68" firstAttribute="trailing" secondItem="Nwc-63-cqh" secondAttribute="trailing" constant="128" id="a83-Ik-7Im"/>
                             <constraint firstItem="8il-3c-A68" firstAttribute="trailing" secondItem="HKq-kX-6Wy" secondAttribute="trailing" constant="65" id="bOP-bg-b5b"/>
                             <constraint firstItem="8il-3c-A68" firstAttribute="trailing" secondItem="yFi-vt-qmm" secondAttribute="trailing" constant="30" id="cr9-Uy-Jdd"/>
-                            <constraint firstItem="0Nn-Yh-5xf" firstAttribute="top" secondItem="Gef-1f-2qJ" secondAttribute="bottom" constant="75" id="eva-tn-78c"/>
-                            <constraint firstItem="Nwc-63-cqh" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="116" id="hAC-v2-CG0"/>
+                            <constraint firstItem="0Nn-Yh-5xf" firstAttribute="top" secondItem="Gef-1f-2qJ" secondAttribute="bottom" constant="70" id="eva-tn-78c"/>
+                            <constraint firstItem="Nwc-63-cqh" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="128" id="hAC-v2-CG0"/>
                             <constraint firstItem="bVD-z5-q7D" firstAttribute="leading" secondItem="k5V-nC-MlI" secondAttribute="trailing" constant="35" id="hP7-SN-XQv"/>
-                            <constraint firstItem="k5V-nC-MlI" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="50" id="ibH-dc-WUW"/>
-                            <constraint firstItem="8il-3c-A68" firstAttribute="bottom" secondItem="2Kb-S3-pzc" secondAttribute="bottom" constant="122" id="ufJ-Nz-dvN"/>
+                            <constraint firstItem="Nwc-63-cqh" firstAttribute="top" secondItem="bVD-z5-q7D" secondAttribute="bottom" constant="60" id="iP9-MA-XW4"/>
+                            <constraint firstItem="k5V-nC-MlI" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="32" id="ibH-dc-WUW"/>
                             <constraint firstItem="8il-3c-A68" firstAttribute="trailing" secondItem="bVD-z5-q7D" secondAttribute="trailing" constant="30" id="vIY-A1-oV4"/>
-                            <constraint firstItem="k5V-nC-MlI" firstAttribute="top" secondItem="0Nn-Yh-5xf" secondAttribute="bottom" constant="50" id="vTq-Jn-SWr"/>
+                            <constraint firstItem="k5V-nC-MlI" firstAttribute="top" secondItem="0Nn-Yh-5xf" secondAttribute="bottom" constant="41" id="vTq-Jn-SWr"/>
                             <constraint firstItem="8il-3c-A68" firstAttribute="trailing" secondItem="Gef-1f-2qJ" secondAttribute="trailing" constant="70" id="xXB-kf-44K"/>
-                            <constraint firstItem="0Nn-Yh-5xf" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="48" id="xZu-cw-RJJ"/>
+                            <constraint firstItem="0Nn-Yh-5xf" firstAttribute="leading" secondItem="8il-3c-A68" secondAttribute="leading" constant="32" id="xZu-cw-RJJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="83s-le-1bW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1nk-p2-66h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3942.7480916030531" y="-28.169014084507044"/>
+            <point key="canvasLocation" x="3673" y="-194"/>
+        </scene>
+        <!--Buscar-->
+        <scene sceneID="0ni-cq-CSJ">
+            <objects>
+                <navigationController id="Xba-Lv-1DO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Buscar" image="magnifyingglass" catalog="system" id="ahD-zw-Mgh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Cd-wL-Qfz">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="7FW-g9-maL" kind="relationship" relationship="rootViewController" id="eNk-kn-m4E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IJH-m9-qKJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2124" y="-999"/>
+        </scene>
+        <!--Mis cursos-->
+        <scene sceneID="qFU-yz-Xnm">
+            <objects>
+                <navigationController id="9Rs-e3-Wgw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Mis cursos" image="book" catalog="system" id="zbA-3B-ysb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="97t-0f-gB4">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Gdy-XJ-Tzi" kind="relationship" relationship="rootViewController" id="tGB-9X-ArO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bM-nB-kga" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2960" y="-994"/>
+        </scene>
+        <!--Cuenta-->
+        <scene sceneID="D2e-1B-ebh">
+            <objects>
+                <navigationController id="DJK-Od-u0i" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Cuenta" image="person" catalog="system" id="WiP-3Y-3Ka"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GkA-jt-q1M">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="25Y-zf-Kzr" kind="relationship" relationship="rootViewController" id="tUb-rT-t7p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eZx-u0-YIE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3758" y="-999"/>
         </scene>
     </scenes>
     <resources>
         <image name="Beige Brown Minimalist Pet Shop - Logo (1).png" width="328.5" height="138"/>
-        <image width="784" height="636">
-            <string key="name">education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg</string>
-        </image>
+        <image name="book" catalog="system" width="128" height="99"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
