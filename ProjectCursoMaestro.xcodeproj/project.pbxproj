@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71EEEDF2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */; };
 		B73B63CD2AC8A0A800FA4A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */; };
 		B73B63CF2AC8A0A800FA4A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */; };
 		B73B63D12AC8A0A800FA4A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63D02AC8A0A800FA4A1B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beige Brown Minimalist Pet Shop - Logo (1).png"; path = "../../../Downloads/Beige Brown Minimalist Pet Shop - Logo (1).png"; sourceTree = "<group>"; };
 		B73B63C92AC8A0A800FA4A1B /* ProjectCursoMaestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCursoMaestro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				B73B63D72AC8A0A900FA4A1B /* LaunchScreen.storyboard */,
 				B73B63DA2AC8A0A900FA4A1B /* Info.plist */,
 				B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */,
+				B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */,
 			);
 			path = ProjectCursoMaestro;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 				B73B63D92AC8A0A900FA4A1B /* LaunchScreen.storyboard in Resources */,
 				B73B63D62AC8A0A900FA4A1B /* Assets.xcassets in Resources */,
 				B73B63D42AC8A0A800FA4A1B /* Main.storyboard in Resources */,
+				B71EEEDF2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
