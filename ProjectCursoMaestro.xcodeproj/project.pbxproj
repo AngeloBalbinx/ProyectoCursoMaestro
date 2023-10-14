@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B71EEEDF2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */; };
 		B71EEEE12AD1E17900569D65 /* MenuPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */; };
 		B71EEEE32AD1E1DE00569D65 /* BuscarCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */; };
 		B71EEEE52AD1E1FF00569D65 /* MisCursosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */; };
-		B71EEEE72AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = B71EEEE62AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg */; };
 		B71EEEE92AD1E7ED00569D65 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71EEEE82AD1E7ED00569D65 /* LoginViewController.swift */; };
 		B73B63CD2AC8A0A800FA4A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */; };
 		B73B63CF2AC8A0A800FA4A1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */; };
@@ -20,14 +18,16 @@
 		B73B63D62AC8A0A900FA4A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73B63D52AC8A0A900FA4A1B /* Assets.xcassets */; };
 		B73B63D92AC8A0A900FA4A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73B63D72AC8A0A900FA4A1B /* LaunchScreen.storyboard */; };
 		B73B63E12AC8A91700FA4A1B /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */; };
+		B74B03172ADB239000F7CBD7 /* Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = B74B03162ADB239000F7CBD7 /* Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png */; };
+		B74B03192ADB27A400F7CBD7 /* Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = B74B03182ADB27A400F7CBD7 /* Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png */; };
+		B74B031B2ADB28E500F7CBD7 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */; };
+		B74B03212ADB2B0D00F7CBD7 /* AvatarCuenta.png in Resources */ = {isa = PBXBuildFile; fileRef = B74B03202ADB2B0D00F7CBD7 /* AvatarCuenta.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beige Brown Minimalist Pet Shop - Logo (1).png"; path = "../../../Downloads/Beige Brown Minimalist Pet Shop - Logo (1).png"; sourceTree = "<group>"; };
 		B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalViewController.swift; sourceTree = "<group>"; };
 		B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarCursoViewController.swift; sourceTree = "<group>"; };
 		B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisCursosViewController.swift; sourceTree = "<group>"; };
-		B71EEEE62AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg"; path = "../../../Downloads/education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg"; sourceTree = "<group>"; };
 		B71EEEE82AD1E7ED00569D65 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B73B63C92AC8A0A800FA4A1B /* ProjectCursoMaestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectCursoMaestro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +38,10 @@
 		B73B63D82AC8A0A900FA4A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B73B63DA2AC8A0A900FA4A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		B74B03162ADB239000F7CBD7 /* Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png"; path = "../../../../Downloads/Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png"; sourceTree = "<group>"; };
+		B74B03182ADB27A400F7CBD7 /* Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png"; path = "../../../../Downloads/Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png"; sourceTree = "<group>"; };
+		B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		B74B03202ADB2B0D00F7CBD7 /* AvatarCuenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AvatarCuenta.png; path = ../../../../Downloads/AvatarCuenta.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +82,14 @@
 				B73B63D72AC8A0A900FA4A1B /* LaunchScreen.storyboard */,
 				B73B63DA2AC8A0A900FA4A1B /* Info.plist */,
 				B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */,
-				B71EEEDE2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png */,
 				B71EEEE02AD1E17900569D65 /* MenuPrincipalViewController.swift */,
 				B71EEEE22AD1E1DE00569D65 /* BuscarCursoViewController.swift */,
 				B71EEEE42AD1E1FF00569D65 /* MisCursosViewController.swift */,
-				B71EEEE62AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg */,
 				B71EEEE82AD1E7ED00569D65 /* LoginViewController.swift */,
+				B74B03162ADB239000F7CBD7 /* Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png */,
+				B74B03182ADB27A400F7CBD7 /* Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png */,
+				B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */,
+				B74B03202ADB2B0D00F7CBD7 /* AvatarCuenta.png */,
 			);
 			path = ProjectCursoMaestro;
 			sourceTree = "<group>";
@@ -146,11 +152,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71EEEE72AD1E49100569D65 /* education-logo-open-book-dictionary-textbook-or-notebook-with-sunrice-icon-modern-emblem-idea-concept-design-for-business-libraries-schools-universities-educational-courses-vector (1).jpg in Resources */,
+				B74B03212ADB2B0D00F7CBD7 /* AvatarCuenta.png in Resources */,
 				B73B63D92AC8A0A900FA4A1B /* LaunchScreen.storyboard in Resources */,
+				B74B03172ADB239000F7CBD7 /* Beige_Brown_Minimalist_Pet_Shop_-_Logo__1_-removebg-preview.png in Resources */,
 				B73B63D62AC8A0A900FA4A1B /* Assets.xcassets in Resources */,
 				B73B63D42AC8A0A800FA4A1B /* Main.storyboard in Resources */,
-				B71EEEDF2AD1E01B00569D65 /* Beige Brown Minimalist Pet Shop - Logo (1).png in Resources */,
+				B74B03192ADB27A400F7CBD7 /* Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74B031B2ADB28E500F7CBD7 /* CuentaViewController.swift in Sources */,
 				B71EEEE12AD1E17900569D65 /* MenuPrincipalViewController.swift in Sources */,
 				B73B63D12AC8A0A800FA4A1B /* ViewController.swift in Sources */,
 				B73B63E12AC8A91700FA4A1B /* RegistroViewController.swift in Sources */,
