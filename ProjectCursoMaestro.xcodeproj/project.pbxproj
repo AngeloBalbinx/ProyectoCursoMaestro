@@ -19,7 +19,6 @@
 		B73B63D92AC8A0A900FA4A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73B63D72AC8A0A900FA4A1B /* LaunchScreen.storyboard */; };
 		B73B63E12AC8A91700FA4A1B /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */; };
 		B74B031B2ADB28E500F7CBD7 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */; };
-		B74B03272ADB346800F7CBD7 /* img in Resources */ = {isa = PBXBuildFile; fileRef = B74B03262ADB346800F7CBD7 /* img */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		B73B63DA2AC8A0A900FA4A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73B63E02AC8A91700FA4A1B /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
-		B74B03262ADB346800F7CBD7 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 		B73B63CB2AC8A0A800FA4A1B /* ProjectCursoMaestro */ = {
 			isa = PBXGroup;
 			children = (
-				B74B03262ADB346800F7CBD7 /* img */,
 				B73B63CC2AC8A0A800FA4A1B /* AppDelegate.swift */,
 				B73B63CE2AC8A0A800FA4A1B /* SceneDelegate.swift */,
 				B73B63D02AC8A0A800FA4A1B /* ViewController.swift */,
@@ -147,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73B63D92AC8A0A900FA4A1B /* LaunchScreen.storyboard in Resources */,
-				B74B03272ADB346800F7CBD7 /* img in Resources */,
 				B73B63D62AC8A0A900FA4A1B /* Assets.xcassets in Resources */,
 				B73B63D42AC8A0A800FA4A1B /* Main.storyboard in Resources */,
 			);
