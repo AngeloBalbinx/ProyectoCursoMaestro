@@ -7,12 +7,59 @@
 
 import UIKit
 
-class MenuPrincipalViewController: UIViewController {
+struct Curso{
+    var imagen: String
+    var titulo: String
+    var categoria: String
+}
+
+class MenuPrincipalViewController: UIViewController, UITableViewDataSource {
+    
+    @IBOutlet weak var cursosTableView: UITableView!
+    var cursosList : [Curso] = []
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        cursosTableView.dataSource = self
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        
+    }
+    
+    // Número de filas
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cursosList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cursoCell", for: indexPath) as! CursoTableViewCell
+        
+        let curso = cursosList[indexPath.row]
+        
+        
+      
+        cell.tituloLabel.text = curso.titulo
+        cell.categoriaLabel.text = curso.categoria
+        
+        
+        return cell
     }
     
 

@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png" translatesAutoresizingMaskIntoConstraints="NO" id="xjq-ih-gCw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoBlanco" translatesAutoresizingMaskIntoConstraints="NO" id="xjq-ih-gCw">
                                 <rect key="frame" x="76" y="362" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -31,7 +31,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo_psicopedagoga_minimalista_y_lineal_lila__1_-removebg-preview.png" width="324" height="125.25"/>
+        <image name="LogoBlanco" width="432" height="167"/>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

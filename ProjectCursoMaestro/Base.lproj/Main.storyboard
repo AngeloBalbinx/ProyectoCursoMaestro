@@ -128,222 +128,79 @@
         <!--Menu Principal View Controller-->
         <scene sceneID="nhS-lP-hP4">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hqg-at-aeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="j9i-wV-skL" customClass="MenuPrincipalViewController" customModule="ProjectCursoMaestro" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="4xb-RK-1tw">
+                    <view key="view" contentMode="scaleToFill" id="4xb-RK-1tw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hola, Nombres Apellidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLo-ab-gxN">
-                                <rect key="frame" x="16" y="79.666666666666671" width="187.66666666666666" height="20.333333333333329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hola, Nombres Apellidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLo-ab-gxN">
+                                <rect key="frame" x="16" y="66" width="187.66666666666666" height="20.333333333333329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gcN-Vx-ZnW">
-                                <rect key="frame" x="19" y="128" width="355" height="564"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="EPQ-Dz-teq">
-                                        <rect key="frame" x="0.0" y="0.0" width="355" height="100"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="BeT-QB-JI2">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="128" id="DQh-Ak-lds"/>
-                                                </constraints>
-                                            </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gob-QD-Qyf">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hKl-PP-Mic">
-                                                        <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="7ab-Y0-Gqd"/>
-                                                        </constraints>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bFR-SR-JLA">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="88l-1B-woX">
-                                        <rect key="frame" x="0.0" y="116" width="355" height="100"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="bBD-6M-ZrT">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="128" id="ga6-A2-MEH"/>
-                                                </constraints>
-                                            </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="An3-EJ-E5W">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PWl-Bb-TWH">
-                                                        <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="rb8-Ws-go7"/>
-                                                        </constraints>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bsl-br-upI">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8Ah-CI-dyh">
-                                        <rect key="frame" x="0.0" y="232" width="355" height="100"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SfT-Z3-ZwQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="128" id="bs7-kY-pjd"/>
-                                                </constraints>
-                                            </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="94c-wn-jm7">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BMq-qT-raE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="PO8-Vv-kzd"/>
-                                                        </constraints>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E9I-Cv-cAd">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2c2-nB-eey">
-                                        <rect key="frame" x="0.0" y="348" width="355" height="100"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" ambiguous="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dOA-xq-moZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="128" id="S80-E6-uuy"/>
-                                                </constraints>
-                                            </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Iy3-Go-NWQ">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qjA-jy-0FB">
-                                                        <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="XTX-1M-laz"/>
-                                                        </constraints>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A1D-nS-gUn">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qaH-tH-xRK">
-                                        <rect key="frame" x="0.0" y="464" width="355" height="100"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eiQ-fz-PsD">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="100"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="128" id="QfB-8k-PLM"/>
-                                                </constraints>
-                                            </imageView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fvT-3W-nYK">
-                                                <rect key="frame" x="136" y="0.0" width="219" height="100"/>
-                                                <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j3d-5a-GcY">
-                                                        <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="wqB-N0-q72"/>
-                                                        </constraints>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Categoria" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LiM-7r-IMD">
-                                                        <rect key="frame" x="0.0" y="50" width="219" height="50"/>
-                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </stackView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="qaH-tH-xRK" firstAttribute="top" secondItem="gcN-Vx-ZnW" secondAttribute="top" constant="464" id="QGd-6W-7tb"/>
-                                    <constraint firstItem="8Ah-CI-dyh" firstAttribute="centerY" secondItem="gcN-Vx-ZnW" secondAttribute="centerY" id="Rck-es-lTi"/>
-                                    <constraint firstItem="88l-1B-woX" firstAttribute="top" secondItem="gcN-Vx-ZnW" secondAttribute="top" constant="116" id="pY4-lk-Gba"/>
-                                    <constraint firstItem="8Ah-CI-dyh" firstAttribute="top" secondItem="gcN-Vx-ZnW" secondAttribute="top" constant="232" id="rSJ-yT-EsZ"/>
-                                </constraints>
-                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Bxe-km-PNS">
+                                <rect key="frame" x="0.0" y="94" width="393" height="693"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cursoCell" rowHeight="116" id="O8c-CI-TXN" customClass="CursoTableViewCell" customModule="ProjectCursoMaestro" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="116"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O8c-CI-TXN" id="gzH-DC-crm">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="116"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LogoNegro" translatesAutoresizingMaskIntoConstraints="NO" id="tda-Gy-Lg8">
+                                                    <rect key="frame" x="20" y="10" width="170" height="97"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="7Tl-za-I3C">
+                                                    <rect key="frame" x="210" y="16" width="158" height="84"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKU-Yi-6UO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="158" height="22"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSq-eH-2g6">
+                                                            <rect key="frame" x="0.0" y="62" width="158" height="22"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="7Tl-za-I3C" secondAttribute="bottom" constant="5" id="6Ks-Xd-OzR"/>
+                                                <constraint firstItem="7Tl-za-I3C" firstAttribute="leading" secondItem="gzH-DC-crm" secondAttribute="leadingMargin" constant="190" id="WZW-jp-GHG"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="7Tl-za-I3C" secondAttribute="trailing" constant="5" id="oHs-a9-xBz"/>
+                                                <constraint firstItem="7Tl-za-I3C" firstAttribute="top" secondItem="gzH-DC-crm" secondAttribute="topMargin" constant="5" id="t4c-dR-rLT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="categoriaLabel" destination="jSq-eH-2g6" id="8X5-vY-CfA"/>
+                                            <outlet property="cursoImageView" destination="tda-Gy-Lg8" id="WiB-Ok-S2W"/>
+                                            <outlet property="tituloLabel" destination="XKU-Yi-6UO" id="X6L-WF-4E2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="acY-xA-jSd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="gcN-Vx-ZnW" firstAttribute="centerX" secondItem="4xb-RK-1tw" secondAttribute="centerX" id="FrO-K9-GUj"/>
-                            <constraint firstItem="VLo-ab-gxN" firstAttribute="leading" secondItem="4xb-RK-1tw" secondAttribute="leadingMargin" id="Nyx-ld-90m"/>
-                            <constraint firstItem="acY-xA-jSd" firstAttribute="bottom" secondItem="gcN-Vx-ZnW" secondAttribute="bottom" constant="126" id="a2A-Le-NW3"/>
-                            <constraint firstItem="gcN-Vx-ZnW" firstAttribute="top" secondItem="4xb-RK-1tw" secondAttribute="top" constant="128" id="dUL-bR-4gD"/>
-                            <constraint firstItem="gcN-Vx-ZnW" firstAttribute="top" secondItem="VLo-ab-gxN" secondAttribute="bottom" constant="28" id="tNd-ES-THf"/>
-                            <constraint firstItem="gcN-Vx-ZnW" firstAttribute="leading" secondItem="acY-xA-jSd" secondAttribute="leading" constant="19" id="vhE-zk-kNm"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ve2-ax-Pay"/>
+                    <connections>
+                        <outlet property="cursosTableView" destination="Bxe-km-PNS" id="oQv-gi-2Nw"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hqg-at-aeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1425" y="-193"/>
+            <point key="canvasLocation" x="1423.6641221374045" y="-193.66197183098592"/>
         </scene>
         <!--Buscar Curso View Controller-->
         <scene sceneID="bQO-sb-7sw">
