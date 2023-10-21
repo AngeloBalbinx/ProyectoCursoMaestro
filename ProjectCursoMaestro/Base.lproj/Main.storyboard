@@ -128,7 +128,7 @@
         <!--Menu Principal View Controller-->
         <scene sceneID="nhS-lP-hP4">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="j9i-wV-skL" customClass="MenuPrincipalViewController" customModule="ProjectCursoMaestro" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j9i-wV-skL" customClass="MenuPrincipalViewController" customModule="ProjectCursoMaestro" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="4xb-RK-1tw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -294,7 +294,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fvT-3W-nYK">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
                                                 <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j3d-5a-GcY">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="j3d-5a-GcY">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -508,7 +508,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JkM-nE-Zpk">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
                                                 <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Sw-gn-A45">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Sw-gn-A45">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -781,7 +781,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cTS-DD-Szv">
                                                 <rect key="frame" x="136" y="0.0" width="219" height="100"/>
                                                 <subviews>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-ir-IKg">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Título del Curso" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4S8-ir-IKg">
                                                         <rect key="frame" x="0.0" y="0.0" width="219" height="50"/>
                                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -1132,9 +1132,60 @@
             </objects>
             <point key="canvasLocation" x="3758" y="-999"/>
         </scene>
+        <!--Detalle Curso View Controller-->
+        <scene sceneID="XX3-eR-I6e">
+            <objects>
+                <viewController id="ELQ-qL-2on" customClass="DetalleCursoViewController" customModule="ProjectCursoMaestro" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Xa-vf-1e0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HF1-m0-cTE">
+                                <rect key="frame" x="37" y="104" width="318" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del curso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjZ-hx-kwT">
+                                <rect key="frame" x="37" y="316" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descripción del curso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIU-ub-JIW">
+                                <rect key="frame" x="37" y="369" width="165" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructor(es)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHT-bV-XNd">
+                                <rect key="frame" x="37" y="416" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6l-LK-agO">
+                                <rect key="frame" x="98" y="495" width="197" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Agregar a Mis Cursos">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jm3-Au-idu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mnk-uh-ZAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4643.5114503816794" y="-194.36619718309859"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1UK-yp-brf"/>
+        <segue reference="u9K-jo-ti2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AvatarCuenta" width="500" height="500"/>
