@@ -17,6 +17,14 @@ class CursoTableViewCell: UITableViewCell {
     @IBOutlet weak var categoriaLabel: UILabel!
     
     
+    @IBOutlet weak var cursoImageView2: UIImageView!
+    
+    @IBOutlet weak var tituloLabel2: UILabel!
+    
+    @IBOutlet weak var categoriaLabel2: UILabel!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
