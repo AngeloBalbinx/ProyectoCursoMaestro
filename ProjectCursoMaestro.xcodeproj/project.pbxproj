@@ -21,6 +21,8 @@
 		B74B031B2ADB28E500F7CBD7 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */; };
 		B7ECDE212AE458E500C1394F /* DetalleCursoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECDE202AE458E500C1394F /* DetalleCursoViewController.swift */; };
 		B7ECDE252AE464DC00C1394F /* CursoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECDE242AE464DC00C1394F /* CursoTableViewCell.swift */; };
+		BF0DB69B2B09CF1500D114B7 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DB69A2B09CF1500D114B7 /* ApiManager.swift */; };
+		BF0DB69D2B09D84600D114B7 /* GlobalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DB69C2B09D84600D114B7 /* GlobalManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
 		B7ECDE202AE458E500C1394F /* DetalleCursoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleCursoViewController.swift; sourceTree = "<group>"; };
 		B7ECDE242AE464DC00C1394F /* CursoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoTableViewCell.swift; sourceTree = "<group>"; };
+		BF0DB69A2B09CF1500D114B7 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		BF0DB69C2B09D84600D114B7 /* GlobalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				B74B031A2ADB28E500F7CBD7 /* CuentaViewController.swift */,
 				B7ECDE202AE458E500C1394F /* DetalleCursoViewController.swift */,
 				B7ECDE242AE464DC00C1394F /* CursoTableViewCell.swift */,
+				BF0DB69A2B09CF1500D114B7 /* ApiManager.swift */,
+				BF0DB69C2B09D84600D114B7 /* GlobalManager.swift */,
 			);
 			path = ProjectCursoMaestro;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 				B74B031B2ADB28E500F7CBD7 /* CuentaViewController.swift in Sources */,
 				B7ECDE252AE464DC00C1394F /* CursoTableViewCell.swift in Sources */,
 				B71EEEE12AD1E17900569D65 /* MenuPrincipalViewController.swift in Sources */,
+				BF0DB69D2B09D84600D114B7 /* GlobalManager.swift in Sources */,
 				B73B63D12AC8A0A800FA4A1B /* ViewController.swift in Sources */,
+				BF0DB69B2B09CF1500D114B7 /* ApiManager.swift in Sources */,
 				B73B63E12AC8A91700FA4A1B /* RegistroViewController.swift in Sources */,
 				B71EEEE32AD1E1DE00569D65 /* BuscarCursoViewController.swift in Sources */,
 				B71EEEE92AD1E7ED00569D65 /* LoginViewController.swift in Sources */,
