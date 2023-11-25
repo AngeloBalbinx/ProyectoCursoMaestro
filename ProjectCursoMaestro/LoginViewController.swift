@@ -55,7 +55,7 @@ class LoginViewController: UIViewController {
                     
                     print("token: \(response.token)")
                     
-                    GlobalManager.setJWTToken( response.token)
+                    GlobalManager.setJWTToken(response.token)
                     
                     print("Response: \(String(data: data, encoding: .utf8) ?? "")")
                     
