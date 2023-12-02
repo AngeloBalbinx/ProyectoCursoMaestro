@@ -28,13 +28,15 @@ class LoginViewController: UIViewController {
         let passwordHasText = passwordInput.hasText
         
         if(!userHasText || !passwordHasText) {
+            self.showErrorAlert(
+                title: "ERROR",
+                message: "Ingrese todos los campos"
+            )
             return
         }
         
         let user = userInput.text
         let password = passwordInput.text
-        
-        
         
         let apiURL = "/api/auth/login"
         let parameters = [
@@ -52,13 +54,9 @@ class LoginViewController: UIViewController {
                 
                 do {
                     let response = try JSONDecoder().decode(SLoginResponse.self, from: data)
-                    
-                    print("token: \(response.token)")
-                    
+                                        
                     GlobalManager.setJWTToken(response.token)
-                    
-                    print("Response: \(String(data: data, encoding: .utf8) ?? "")")
-                    
+                                        
                     DispatchQueue.main.async {
                         let storyBoard = UIStoryboard(
                             name: "Main",
@@ -76,11 +74,21 @@ class LoginViewController: UIViewController {
 
                 }
                 catch {
+                    self.showErrorAlert(
+                        title: "ERROR",
+                        message: "Contraseña incorrecta"
+                    )
+                    
                     print("Error: \(error)")
                 }
 
             case .failure(let error):
                 // Handle error
+                self.showErrorAlert(
+                    title: "ERROR",
+                    message: "Inténtelo de nuevo"
+                )
+                
                 print("Error: \(error)")
             }
         }

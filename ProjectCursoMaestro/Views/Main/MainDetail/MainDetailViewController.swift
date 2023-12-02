@@ -1,14 +1,22 @@
 //
-//  RegistroViewController.swift
+//  MainDetailViewController.swift
 //  ProjectCursoMaestro
 //
-//  Created by DAMII on 30/09/23.
+//  Created by Genaro Martinez on 2/12/23.
 //
 
 import UIKit
 
-class RegistroViewController: UIViewController {
+class MainDetailViewController: UIViewController {
 
+    // label
+    @IBOutlet weak var idLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var levelLabel: UILabel!
+    @IBOutlet weak var modalityLabel: UILabel!
+    @IBOutlet weak var durationLabel: UILabel!
+    @IBOutlet weak var capacityLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

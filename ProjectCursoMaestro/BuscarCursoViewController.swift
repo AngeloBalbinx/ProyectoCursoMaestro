@@ -12,7 +12,7 @@ class BuscarCursoViewController: UIViewController,UITableViewDataSource {
 
     
     @IBOutlet weak var cursosTableView: UITableView!
-    var cursosList : [Curso] = []
+    var cursosList : [Course] = []
     
     
     
@@ -23,22 +23,16 @@ class BuscarCursoViewController: UIViewController,UITableViewDataSource {
         super.viewDidLoad()
 
         cursosTableView.dataSource = self
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
-        cursosList.append(Curso(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
+        cursosList.append(Course(imagen: "https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png", titulo: "Java", categoria: "Tecnologia"))
     }
     // Número de filas
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,8 +46,8 @@ class BuscarCursoViewController: UIViewController,UITableViewDataSource {
         
         
       
-        cell.tituloLabel2.text = curso.titulo
-        cell.categoriaLabel2.text = curso.categoria
+        cell.tituloLabel.text = curso.titulo
+        cell.categoriaLabel.text = curso.categoria
         
         
         return cell
