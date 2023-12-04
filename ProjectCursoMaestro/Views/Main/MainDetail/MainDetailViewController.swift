@@ -17,9 +17,23 @@ class MainDetailViewController: UIViewController {
     @IBOutlet weak var durationLabel: UILabel!
     @IBOutlet weak var capacityLabel: UILabel!
     
+    var id: String = ""
+    var name: String = ""
+    var level: String = ""
+    var modality: String = ""
+    var duration: String = ""
+    var capacity: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        idLabel.text = id
+        nameLabel.text = name
+        levelLabel.text = level
+        modalityLabel.text = modality
+        durationLabel.text = duration
+        capacityLabel.text = capacity
+        
         // Do any additional setup after loading the view.
     }
     

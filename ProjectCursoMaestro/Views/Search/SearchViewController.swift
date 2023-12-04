@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate {
+class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
     // components
     @IBOutlet weak var mainTable: UITableView!
@@ -20,6 +20,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UISearchBar
         super.viewDidLoad()
 
         mainTable.dataSource = self
+        mainTable.delegate = self
         
         fetchLessons()
         // Do any additional setup after loading the view.
@@ -39,6 +40,22 @@ class SearchViewController: UIViewController, UITableViewDataSource, UISearchBar
         cell.modalityLabel.text = lesson.modality
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let lesson = lessons[indexPath.row]
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "MainDetailViewController") as! MainDetailViewController
+        
+        viewController.id = lesson.id ?? ""
+        viewController.name = lesson.name ?? ""
+        viewController.level = lesson.level ?? ""
+        viewController.modality = lesson.modality ?? ""
+        viewController.duration = "\(lesson.hour) horas" ?? ""
+        viewController.capacity = "\(lesson.capacity) (minima: \(lesson.minCapacity)" ?? ""
+                
+        self.present(viewController, animated: true, completion: nil)
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
@@ -92,7 +109,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UISearchBar
     }
 
     func fetchLessonsByName(name: String) {
-        let apiURL = "/api/lesson/search?name=\(name)"
+        let apiURL = "/api/lesson/many?name=\(name)"
 
         ApiManager.get(
             endpoint: apiURL

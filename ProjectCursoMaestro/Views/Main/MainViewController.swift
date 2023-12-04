@@ -24,7 +24,7 @@ struct Lesson: Codable {
     }
 }
 
-class MainViewController: UIViewController, UITableViewDataSource {
+class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // components
     @IBOutlet weak var mainTable: UITableView!
@@ -36,6 +36,7 @@ class MainViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
 
         mainTable.dataSource = self
+        mainTable.delegate = self
         
         fetchLessons()
         // Do any additional setup after loading the view.
@@ -56,21 +57,18 @@ class MainViewController: UIViewController, UITableViewDataSource {
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let lesson = lessons[indexPath.row]
-        
-        print("lesson")
-        print(lesson)
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "MainDetailViewController") as! MainDetailViewController
         
-        viewController.idLabel.text = lesson.id
-        viewController.nameLabel.text = lesson.name
-        viewController.levelLabel.text = lesson.level
-        viewController.modalityLabel.text = lesson.modality
-        viewController.durationLabel.text = "\(lesson.hour) horas"
-        viewController.capacityLabel.text = "\(lesson.capacity) (minima: \(lesson.minCapacity)"
+        viewController.id = lesson.id ?? ""
+        viewController.name = lesson.name ?? ""
+        viewController.level = lesson.level ?? ""
+        viewController.modality = lesson.modality ?? ""
+        viewController.duration = "\(lesson.hour) horas" ?? ""
+        viewController.capacity = "\(lesson.capacity) (minima: \(lesson.minCapacity)" ?? ""
                 
         self.present(viewController, animated: true, completion: nil)
     }

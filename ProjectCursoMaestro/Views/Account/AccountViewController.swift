@@ -27,6 +27,7 @@ class AccountViewController: UIViewController {
     // components
     @IBOutlet weak var fullnameLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     
     var alreadyInit: Bool = false
     
@@ -58,12 +59,10 @@ class AccountViewController: UIViewController {
                     let lastname = response.lastname
                     let email = response.email
                     
-                    self.fullnameLabel.text = "\(name) \(lastname)"
-                    
-                    self.emailLabel.text = email
-                    
                     DispatchQueue.main.async {
-                        self.viewDidLoad()
+                        self.fullnameLabel.text = "\(name) \(lastname)"
+                        self.emailLabel.text = email
+                        //self.imageView. = ""
                     }
                     
                 }
